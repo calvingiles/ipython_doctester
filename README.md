@@ -1,4 +1,3 @@
-=================
 ipython_doctester
 =================
 
@@ -11,7 +10,7 @@ navigate to this directory and run::
     python setup.py install
 
 Use
-===
+---
 
 Run ``ipython notebook``, then start your notebook with this import::
 
@@ -32,11 +31,11 @@ Tests will run on each cell as it is executed.
 Only change to original so far is to silence the success output for non-teaching applications.
 
 Development
-===========
+-----------
 
 https://github.com/calvingiles/ipython_doctester
 
 Thanks to
-=========
+---------
 
 This is a fork from Catherine Devlin. Thanks to her for the original project and to Brian Granger for original technical advice
