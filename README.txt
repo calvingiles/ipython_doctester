@@ -31,11 +31,6 @@ Tests will run on each cell as it is executed.
 
 Only change to original so far is to silence the success output for non-teaching applications.
 
-If you want to track students' progress through a notebook in a 
-classroom setting, you can; see 
-http://ipython-docent.appspot.com/
-for instructions.
-
 Development
 ===========
 
