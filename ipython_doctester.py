@@ -70,11 +70,9 @@ class Reporter(object):
                         '<td><pre>%s</pre></td>'
                         '<td><pre style="color:%s">%s</pre></td></tr>')
     fail_template = """
-        <p><span style="color:red;">Oops!</span>  Not quite there yet...</p>
+        <p><span style="color:red;">Error!</span></p>
       """
-    success_template = """
-      <p style="color:green;font-size:250%;font-weight=bold">Success!</p>
-      """
+    success_template = ""
 
     def trap_txt(self, txt):
         self.txt += txt
